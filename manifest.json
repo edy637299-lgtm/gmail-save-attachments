@@ -1,0 +1,19 @@
+{
+  "name": "gmail-save-attachments",
+  "version": "1.0.0",
+  "description": "Download Gmail attachments and upload them to Google Drive.",
+  "entrypoint": "skill.py",
+  "commands": [
+    {
+      "name": "gmail-save-attachments",
+      "description": "Download Gmail attachments and upload to Google Drive",
+      "parameters": {
+        "from": "string?",
+        "subject": "string?",
+        "newer_than": "string?",
+        "id": "string?",
+        "save_to": "string"
+      }
+    }
+  ]
+}
