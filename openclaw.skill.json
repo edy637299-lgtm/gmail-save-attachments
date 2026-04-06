@@ -1,0 +1,6 @@
+{
+  "name": "gmail-save-attachments",
+  "version": "1.0.0",
+  "description": "Automatically saves Gmail attachments to Google Drive.",
+  "entry": "skill.py"
+}
